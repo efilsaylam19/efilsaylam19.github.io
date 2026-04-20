@@ -201,6 +201,7 @@ section {
 
 .about-text p {
     margin-bottom: 1.8rem;
+    text-align: justify;
 }
 
 .about-image-wrapper {
