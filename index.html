@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Efil Saylam</title>
+    <meta name="description"
+        content="Portfolio of Efil Saylam, Computer Engineering student focusing on AI and data analysis.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo"><strong>Efil</strong> <span class="logo-thin">Saylam</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">🌙</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="fade-in professional-about">
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a third-year Computer Engineering student with a strong interest in data science, machine
+                        learning, and artificial intelligence. I focus on data analysis and interpretation, primarily
+                        using R and RStudio, where I work with data manipulation, visualization, and basic statistical
+                        analysis.</p>
+                    <p>I am also developing my skills in machine learning and AI, exploring how data-driven models can
+                        be used to solve real-world problems and support intelligent decision-making systems.</p>
+                    <p>Alongside my academic work, I actively contribute to technology communities. I serve as the Vice
+                        President of Huawei Student Developers at Recep Tayyip Erdoğan University, where I support
+                        student initiatives and help organize technical events. I am also the Activities Coordination
+                        Lead in the university’s R&D and Technology Society.</p>
+                    <p>Since 2021, I have been contributing as a volunteer writer to Evrim Ağacı, where I create content
+                        related to science, technology, and continuous learning. I also take part in various volunteer
+                        projects, aiming to grow both technically and personally while contributing to meaningful
+                        initiatives.</p>
+                    <p>In my free time, I practice kickboxing, which helps me build discipline and resilience, and I
+                        explore photography as a creative outlet.</p>
+                    <p>Currently, I am seeking opportunities to further develop my skills and gain real-world experience
+                        in data science, machine learning, and AI.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="arge_t.jpeg" alt="Efil Saylam" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3>
+                            <strong>Echo Vision Kit</strong>
+                            <span class="project-badge">Team Project</span>
+                        </h3>
+                        <p class="project-subtitle"><em>AI-powered sound detection kit for hearing-impaired drivers</em>
+                        </p>
+                        <p class="project-description">A portable in-vehicle system that classifies ambient sounds in
+                            real time and alerts the driver built for people who experience hearing differences on the
+                            road.</p>
+                        <ul class="project-stack">
+                            <li>ESP32 (Deneyap Kart)</li>
+                            <li>TinyML via Edge Impulse</li>
+                            <li>ESP-NOW</li>
+                            <li>GPS</li>
+                            <li>TFT display</li>
+                        </ul>
+                        <p class="project-result"><strong>Result:</strong> 4th place at Red Bull Basement 2026 Turkey
+                            National Finals</p>
+                    </div>
+                    <div class="project-image">
+                        <!-- Proje Görseli -->
+                        <img src="echo_vision.jpg" alt="Echo Vision Kit Interface">
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3><strong>Leaf Disease Classification App</strong></h3>
+                        <p class="project-subtitle"><em>Deep learning–based plant disease detection in MATLAB</em></p>
+                        <p class="project-description">A desktop application built with MATLAB App Designer that
+                            classifies plant leaf diseases using a pretrained CNN. Supports both single image analysis
+                            and batch dataset evaluation with performance metrics.</p>
+                        <ul class="project-stack">
+                            <li>MATLAB App Designer</li>
+                            <li>CNN (pretrained)</li>
+                            <li>Deep learning</li>
+                        </ul>
+                        <p class="project-result"><strong>Key features:</strong> Confidence scoring, treatment
+                            recommendations, confusion matrix, CSV export</p>
+                    </div>
+                    <div class="project-image">
+                        <!-- Proje Görseli -->
+                        <img src="matlab.png" alt="Leaf Disease Classification App Interface">
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3><strong>Conscious Shopping App</strong> <span class="project-badge">Team Project</span></h3>
+                        <p class="project-subtitle"><em>TÜBİTAK 2209-A funded — Mobile app for smarter food choices</em>
+                        </p>
+                        <p class="project-description">A Flutter app that evaluates scanned products using a
+                            Nutri-Score–style algorithm and suggests healthier alternatives when needed.</p>
+                        <ul class="project-stack">
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>C++</li>
+                        </ul>
+                        <p class="project-result"><strong>Key features:</strong> Nutritional scoring, ingredient
+                            breakdown, alternative product suggestions</p>
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3><strong>FutureLetters</strong></h3>
+                        <p class="project-subtitle"><em>Personal science & culture blog </em></p>
+                        <p class="project-description">A self-hosted WordPress blog covering science, psychology,
+                            history, and personal growth. Deployed on Google Cloud with original English-language
+                            articles adapted from Turkish science writing.</p>
+                        <ul class="project-stack">
+                            <li>WordPress</li>
+                            <li>Google Cloud</li>
+                        </ul>
+                    </div>
+                    <div class="project-image">
+                        <!-- Proje Görseli -->
+                        <img src="future_letters.png" alt="FutureLetters Blog Interface">
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3><strong>Daily Productivity Analysis</strong></h3>
+                        <p class="project-subtitle"><em>Personal habit tracker and productivity scoring tool</em></p>
+                        <p class="project-description">An R script that analyzes daily habits — sleep, deep work, exercise, screen time — and calculates a productivity score to identify patterns over time.</p>
+                        <ul class="project-stack">
+                            <li>R</li>
+                            <li>ggplot2</li>
+                            <li>dplyr</li>
+                        </ul>
+                        <p class="project-result"><strong>Key features:</strong> Weighted scoring algorithm, top vs bottom day comparison, trend visualizations, CSV export</p>
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <div class="project-text">
+                        <h3><strong>Writers Organizer</strong></h3>
+                        <p class="project-subtitle"><em>C++ application for writers to manage articles, ideas, and income</em></p>
+                        <p class="project-description">A command-line tool built to practice advanced data structures — each module uses a different structure suited to its use case.</p>
+                        <ul class="project-stack">
+                            <li>C++</li>
+                            <li>CMake</li>
+                            <li>GoogleTest</li>
+                        </ul>
+                        <p class="project-result"><strong>Key features:</strong> Article tracking, idea notebook, submission log, income tracker</p>
+                        <p class="project-result" style="margin-top: 0.5rem;"><strong>Data structures:</strong> Doubly & XOR linked lists, hash table, B+ tree, stack/queue, graph algorithms, Huffman encoding</p>
+                        <p class="project-result" style="margin-top: 0.5rem;"><strong>Test coverage:</strong> 90%+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="social-icons">
+                <a href="mailto:efilsaylam19@gmail.com" aria-label="Email" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path
+                            d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/efilsaylam19" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/efil-saylam/" aria-label="LinkedIn" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+            </div>
+            <p class="contact-desc" style="margin-top: 1rem;">Drop me an email if you want to contact!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Efil Saylam. Designed & Built with ❤️.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
